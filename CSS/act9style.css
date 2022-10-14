@@ -1,6 +1,5 @@
 .a {
-    float: none;
-    width: fit-content;
+    text-align: center;
 }
 .b {
     float: left;
