@@ -1,3 +1,7 @@
+.a {
+    float: none;
+    width: fit-content;
+}
 .b {
     float: left;
     width: 20%;
