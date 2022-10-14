@@ -1,8 +1,8 @@
-b {
+.b {
     float: left;
     width: 20%;
 }
-c {
+.c {
     float: right;
     width: 80%;
 }
