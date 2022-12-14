@@ -17,7 +17,7 @@
                         <th>Mes</th>
                         <th>Año</th>
                     </tr>
-                    <xsl:for-each select="hechos/descipcion">
+                    <xsl:for-each select="hechos/descripcion">
                         <tr>
                             <td>
                                 <xsl:value-of select="@hecho" />
