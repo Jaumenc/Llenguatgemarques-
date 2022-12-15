@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="index.xsd"?>
-<?xml-stylesheet href="index.xsl" type="index.xsl"?>
+<?xml-stylesheet href="index.xsl" type="text/xsl"?>
 <hechos>
     <descripcion hecho="IMB da a conocer el pc.">
         <fecha>
