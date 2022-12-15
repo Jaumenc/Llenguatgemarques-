@@ -11,12 +11,12 @@
                         <th colspan="6">CDs EN OFERTA</th>
                     </tr>
                     <tr>
-                        <th>TITULO</th>
-                        <th>ARTISTA</th>
-                        <th>PAIS</th>
-                        <th>COMPAÑÍA DISCOGRÁFICA</th>
-                        <th>PRECIO</th>
-                        <th>AÑO DE PUBLICACIÓN</th>
+                        <th>Título</th>
+                        <th>Artista</th>
+                        <th>País</th>
+                        <th>Compañía Discográfica</th>
+                        <th>Precio</th>
+                        <th>Año de publicación</th>
                     </tr>
                     <xsl:for-each select="catalogo/cd">
                         <tr>
