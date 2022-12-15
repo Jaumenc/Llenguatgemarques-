@@ -6,7 +6,6 @@
                 <title>ACTIVIDAD 22</title>
             </head>
             <body>
-                <h1>catalogo</h1>
                 <table border="1">
                     <tr>
                         <th colspan="6">CDs EN OFERTA</th>
@@ -19,7 +18,7 @@
                         <th>PRECIO</th>
                         <th>AÑO DE PUBLICACIÓN</th>
                     </tr>
-                    <xsl:for-each select="cd">
+                    <xsl:for-each select="catalogo/cd">
                         <tr>
                             <td><xsl:value-of select="titulo"></xsl:value-of></td>
                             <td><xsl:value-of select="artista"></xsl:value-of></td>
