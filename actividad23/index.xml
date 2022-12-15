@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="index.dtd"?>
+<?xml-stylesheet href="index.xsl" type="text/xsl"?>
+<factura>
+    <numero> 999</numero>
+    <proveedor>
+        <nombre>Equipos Digitales S.L.</nombre>
+        <direccion>Av. Valladolid</direccion>
+        <poblacion>Madrid </poblacion>
+        <codigopostal>28015</codigopostal>
+        <cif> Q-9876543</cif>
+        <telefono>91.777.66.88</telefono>
+        <fax>91.777.66.99</fax>
+        <fecha>12-01-2005</fecha>
+        <pedido> 731</pedido>
+        <pago>EFECTIVO</pago>
+    </proveedor>
+    <cliente>
+        <numero>879</numero>
+        <nombre>Dario Bueno Gutierrez</nombre>
+        <direccion>Av. Oporto nº7 4ºd</direccion>
+        <poblacion>Madrid </poblacion>
+        <codigopostal>28043</codigopostal>
+        <provincia>Madrid</provincia>
+    </cliente>
+    <informacionfactura>
+        <referencia num="MII93000F/8">
+            <descripcion>MICRO PENTIUM IV 3000MHZ FB800</descripcion>
+            <cantidad>1</cantidad>
+            <precio>230</precio>
+            <iva>16,0</iva>
+            <importe>266,80</importe>
+        </referencia>
+        <referencia num="MB8QDIP4">
+            <descripcion>PLACA BASE QDI P4</descripcion>
+            <cantidad>1</cantidad>
+            <precio>180</precio>
+            <iva>16,0</iva>
+            <importe>208,80</importe>
+        </referencia>
+        <referencia num="MEDD512M32">
+            <descripcion>DIMM DDR 512MB 3200</descripcion>
+            <cantidad>2</cantidad>
+            <precio>40</precio>
+            <iva>16,0</iva>
+            <importe>92,80</importe>
+        </referencia>
+        <referencia num="HD250GSA7">
+            <descripcion>DISCO DURO 250GB S-ATA 7200</descripcion>
+            <cantidad>4</cantidad>
+            <precio>120</precio>
+            <iva>16,0</iva>
+            <importe>556,80</importe>
+        </referencia>
+        <baseimponible>970</baseimponible>
+        <iva>16,0</iva>
+        <cuotaiva>155,20</cuotaiva>
+        <totalfactura>1125,20</totalfactura>
+    </informacionfactura>
+
+</factura>

@@ -1,0 +1,26 @@
+<!ELEMENT factura (numero,proveedor,cliente,informacionfactura)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT proveedor (nombre,direccion,poblacion,codigopostal,cif,telefono,fax,fecha,pedido,pago)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT poblacion (#PCDATA)>
+<!ELEMENT codigopostal (#PCDATA)>
+<!ELEMENT cif (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT fax (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT pedido (#PCDATA)>
+<!ELEMENT pago (#PCDATA)>
+<!ELEMENT cliente (numero,nombre,direccion,poblacion,codigopostal,provincia)>
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT informacionfactura (referencia+,baseimponible,iva,cuotaiva,totalfactura)>
+<!ELEMENT referencia (descripcion,cantidad,precio,iva,importe)>
+<!ATTLIST referencia num CDATA #REQUIRED>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT iva (#PCDATA)>
+<!ELEMENT importe (#PCDATA)>
+<!ELEMENT baseimponible (#PCDATA)>
+<!ELEMENT cuotaiva (#PCDATA)>
+<!ELEMENT totalfactura (#PCDATA)>
