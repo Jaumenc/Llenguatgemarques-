@@ -3,24 +3,24 @@
 <factura>
     <numero> 999</numero>
     <proveedor>
-        <nombre>Equipos Digitales S.L.</nombre>
-        <direccion>Av. Valladolid</direccion>
-        <poblacion>Madrid </poblacion>
-        <codigopostal>28015</codigopostal>
+        <nombre> Equipos Digitales S.L.</nombre>
+        <direccion> Av. Valladolid</direccion>
+        <poblacion> Madrid </poblacion>
+        <codigopostal> 28015</codigopostal>
         <cif> Q-9876543</cif>
-        <telefono>91.777.66.88</telefono>
-        <fax>91.777.66.99</fax>
-        <fecha>12-01-2005</fecha>
+        <telefono> 91.777.66.88</telefono>
+        <fax> 91.777.66.99</fax>
+        <fecha> 12-01-2005</fecha>
         <pedido> 731</pedido>
-        <pago>EFECTIVO</pago>
+        <pago> EFECTIVO</pago>
     </proveedor>
     <cliente>
-        <numero>879</numero>
-        <nombre>Dario Bueno Gutierrez</nombre>
-        <direccion>Av. Oporto nº7 4ºd</direccion>
-        <poblacion>Madrid </poblacion>
-        <codigopostal>28043</codigopostal>
-        <provincia>Madrid</provincia>
+        <numero> 879</numero>
+        <nombre> Dario Bueno Gutierrez</nombre>
+        <direccion> Av. Oporto nº7 4ºd</direccion>
+        <poblacion> Madrid </poblacion>
+        <codigopostal> 28043</codigopostal>
+        <provincia> Madrid</provincia>
     </cliente>
     <informacionfactura>
         <referencia num="MII93000F/8">
