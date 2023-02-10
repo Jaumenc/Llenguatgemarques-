@@ -9,11 +9,12 @@
             <body>
                 <table border="1px">
                     <tr>
-                        <th colspan="7">Estilo de baile</th>
+                        <th colspan="9">Escuela de baile</th>
                     </tr>
                     <tr>
                         <th>Baile</th>
                         <th>Precio</th>
+                        <th>Periocidad</th>
                         <th>Plazas</th>
                         <th>Fecha inicio</th>
                         <th>Fecha finalizacion</th>
@@ -28,6 +29,10 @@
                             </td>
                             <td>
                                 <xsl:value-of select="precio" />
+                                <xsl:value-of select="precio/@moneda" />
+                            </td>
+                            <td>
+                                <xsl:value-of select="precio/@periocidad" />
                             </td>
                             <td>
                                 <xsl:value-of select="plazas" />

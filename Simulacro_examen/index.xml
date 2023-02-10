@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!DOCTYPE escuela SYSTEM "index.dtd">
+<?xml-stylesheet href="index.xsl" type="text/xsl"?>
 <escuela>
     <baile estilo="Salsa basico">
-        <precio periocidad="1 mes" moneda="Euro">30 </precio>
+        <precio periocidad="Mensual" moneda="Euros">30 </precio>
         <plazas>20</plazas>
         <fecha_inicio>01/01</fecha_inicio>
         <fecha_finalizacion>30/06</fecha_finalizacion>
@@ -11,7 +12,7 @@
         <sala>1</sala>
     </baile>
     <baile estilo="Bachata basico">
-        <precio periocidad="1 mes" moneda="Euro">30 </precio>
+        <precio periocidad="Mensual" moneda="Euros">30 </precio>
         <plazas>18</plazas>
         <fecha_inicio>01/02</fecha_inicio>
         <fecha_finalizacion>31/07</fecha_finalizacion>
@@ -20,7 +21,7 @@
         <sala>2</sala>
     </baile>
     <baile estilo="Merengue basico">
-        <precio periocidad="1 mes" moneda="Euro">30 </precio>
+        <precio periocidad="Mensual" moneda="Euros">30 </precio>
         <plazas>16</plazas>
         <fecha_inicio>01/03</fecha_inicio>
         <fecha_finalizacion>31/08</fecha_finalizacion>
@@ -29,7 +30,7 @@
         <sala>3</sala>
     </baile>
     <baile estilo="Salsa avanzado">
-        <precio periocidad="1 mes" moneda="Euro">60 </precio>
+        <precio periocidad="Mensual" moneda="Euros">60 </precio>
         <plazas>20</plazas>
         <fecha_inicio>01/07</fecha_inicio>
         <fecha_finalizacion>31/12</fecha_finalizacion>
@@ -38,7 +39,7 @@
         <sala>2</sala>
     </baile>
     <baile estilo="Bachata avanzado">
-        <precio periocidad="1 mes" moneda="Euro">60 </precio>
+        <precio periocidad="Mensual" moneda="Euros">60 </precio>
         <plazas>18</plazas>
         <fecha_inicio>01/08</fecha_inicio>
         <fecha_finalizacion>30/01</fecha_finalizacion>
@@ -47,7 +48,7 @@
         <sala>3</sala>
     </baile>
     <baile estilo="Merengue avanzado">
-        <precio periocidad="1 mes" moneda="Euro">60 </precio>
+        <precio periocidad="Mensual" moneda="Euros">60 </precio>
         <plazas>16</plazas>
         <fecha_inicio>01/09</fecha_inicio>
         <fecha_finalizacion>28/02</fecha_finalizacion>
