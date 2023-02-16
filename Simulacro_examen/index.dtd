@@ -1,0 +1,11 @@
+<!ELEMENT escuela (baile+)>
+<!ELEMENT baile (precio,plazas,fecha_inicio,fecha_finalizacion,dias_semana,nombre_profesor,sala)>
+<!ATTLIST baile estilo CDATA #REQUIRED>
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST precio periocidad CDATA #FIXED "Mensual"><!ATTLIST precio moneda NMTOKEN #FIXED "Euros">
+<!ELEMENT plazas (#PCDATA)>
+<!ELEMENT fecha_inicio (#PCDATA)>
+<!ELEMENT fecha_finalizacion (#PCDATA)>
+<!ELEMENT dias_semana (#PCDATA)>
+<!ELEMENT nombre_profesor (#PCDATA)>
+<!ELEMENT sala (#PCDATA)>
