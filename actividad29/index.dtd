@@ -1,0 +1,21 @@
+<!ELEMENT rss (channel)>
+<!ATTLIST rss version NMTOKEN #REQUIRED>
+<!ELEMENT channel (title,description,language,link,lastBuildDate,item+)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT language (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+<!ELEMENT lastBuildDate (#PCDATA)>
+<!ELEMENT item (guid,title,pubDate,link,creator,alternative,description,category*,content,encoded,keywords?,group?)>
+<!ELEMENT guid (#PCDATA)>
+<!ATTLIST guid isPermaLink NMTOKEN #FIXED "true">
+<!ELEMENT pubDate (#PCDATA)>
+<!ELEMENT creator (#PCDATA)>
+<!ELEMENT alternative (#PCDATA)>
+<!ELEMENT category (#PCDATA)>
+<!ELEMENT content (credit?,title?,text?,description?,thumbnail?)>
+<!ATTLIST content url CDATA #REQUIRED>
+<!ATTLIST content duration NMTOKEN #IMPLIED>
+<!ATTLIST content type CDATA #REQUIRED>
+<!ATTLIST content medium (image|video) #REQUIRED><!ELEMENT credit (#PCDATA)><!ELEMENT text (#PCDATA)><!ELEMENT thumbnail EMPTY><!ATTLIST thumbnail url CDATA #REQUIRED><!ELEMENT encoded(#PCDATA|p|img|h3|i|b|h2)*><!ELEMENT p(#PCDATA|a|i|strong|em|b|br)*><!ELEMENT a(#PCDATA|i|b|em)*><!ATTLIST a href CDATA #REQUIRED><!ATTLIST a target (_blank) #IMPLIED><!ATTLIST a rel NMTOKEN #IMPLIED><!ELEMENT img EMPTY><!ATTLIST img src CDATA #REQUIRED><!ATTLIST img width NMTOKEN #REQUIRED><!ATTLIST img height NMTOKEN #REQUIRED><!ATTLIST img alt CDATA #IMPLIED><!ELEMENT i (#PCDATA)><!ELEMENT h3 (#PCDATA)><!ELEMENT strong (#PCDATA)><!ELEMENT em (#PCDATA)><!ELEMENT b(#PCDATA|B|img|h3|i|b)*><!ELEMENT keywords (#PCDATA)><!ELEMENT B EMPTY><!ELEMENT group (content+)><!ELEMENT h2 (#PCDATA)>
+<!ELEMENT br EMPTY>
